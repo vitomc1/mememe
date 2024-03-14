@@ -1,0 +1,17 @@
+{
+	"name": "banlist",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"dependencies": {
+		"express": "^4.18.2",
+		"fs": "^0.0.1-security",
+		"node-cron": "^3.0.3",
+		"nodemon": "^3.1.0",
+		"puppeteer": "^20.2.0"
+	}
+}
